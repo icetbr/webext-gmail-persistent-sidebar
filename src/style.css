@@ -1,0 +1,52 @@
+div[role=navigation]:before {
+  background-color: unset;
+}
+
+div[role=navigation] {
+  background-color: unset !important;
+  top: -25px;
+  position: absolute;
+}
+
+div[jscontroller=F3Q5Qb] div[role=heading] {
+  display: none;
+}
+
+div[jscontroller=FZ9aJ],
+div[jscontroller=m50PKc],
+div[jscontroller=m3Afm] {
+  display: none;
+}
+
+.nH.aqk.aql.bkL {
+  display: grid;
+  grid-template-columns: 0 250px auto 0;
+  grid-template-rows: 75px 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /*! overflow: hidden; */
+}
+
+div[role=navigation] { grid-area: 1 / 1 / 4 / 2; }
+div[jscontroller=nwtiKd] { grid-area: 1 / 2 / 2 / 3; }
+div[jscontroller=Px22Mb] { grid-area: 2 / 2 / 3 / 3; }
+div[jscontroller=RhNKdd] { grid-area: 3 / 2 / 4 / 3; }
+.nH.bkK { grid-area: 1 / 3 / 4 / 4; }
+.nH.aUx { grid-area: 1 / 4 / 4 / 5; }
+
+
+/* chat/space/email buttons */
+div[jsname=Sz79uf], div[jscontroller=eIu7Db] {
+  height: 39px  !important;
+  background-color: transparent !important;
+  font-weight: bold  !important;
+}
+
+.aic {
+  height: 40px;
+}
+
+/* email don't know what */
+.nM > :first-child {
+  display: none;
+}
