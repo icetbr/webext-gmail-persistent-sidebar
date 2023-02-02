@@ -19,7 +19,7 @@
         "gecko": {
           "id": "webext-gmail-persistent-sidebar@icetbr"
         },
-        "addonIds": ["gmail-persistent-sidebar", "gmail-persistent-sidebar/pfckicghmjgghmoeolegcbccjekhejji"],
+        "addonIds": ["gmail-persistent-sidebar", "gmail-persistent-sidebar/jdlfdphbmmhnomfohebjninafjnpbmmm"],
         "keywords": ["userscript", "gmail"]
     },
 
