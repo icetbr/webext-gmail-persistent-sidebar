@@ -13,6 +13,14 @@ I use email, chat and space as if they were a single service. To see if I have a
 - **before**: hover each panel (pull model)
 - **after**: no hovering needed (push model)
 
+## Bonus: highlight tab when it has new messages
+Gmail has a VERY discrete icon when you have new messages. It also doesn't discriminate the type of message. To fix this, you can add these entries to your `$HOME/.mozilla/firefox/PROFILE.default/chrome/userChrome.css` (create if it doesn't exist)
+
+```css
+tab[label$='- Chat'] { background: #a2f2b8 !important }  /* if the tab title ENDS WITH '- Chat', make the tab green */
+tab[label^='Inbox ('] { background: #a2f2b8 !important } /* if the tab title STARTS WITH 'Inbox (', make the tab green */
+```
+
 ### Limitations
 I couldn't get resizing to stick, I think it's because of CSS grid layout. If you want to change row size, look for this code `grid-template-rows: 75px 1fr 1fr;` and change to your desire. Ex: `grid-template-rows: 150px 250px 1fr;`
 
